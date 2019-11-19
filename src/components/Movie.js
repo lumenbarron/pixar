@@ -17,7 +17,7 @@ export default class Movie extends Component {
     let id = this.props.match.params.movie_id;
     console.log("id", id);
     axios
-      .get("http://5dd02a32d5f1a500149a8463.mockapi.io/movies/movies/" + id)
+      .get("https://5dd02a32d5f1a500149a8463.mockapi.io/movies/movies/" + id)
       .then(res => {
         console.log(res.data);
         const movie = res.data;

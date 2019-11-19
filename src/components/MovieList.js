@@ -15,7 +15,7 @@ export default class MovieList extends Component {
   }
   componentDidMount() {
     axios
-      .get("http://5dd02a32d5f1a500149a8463.mockapi.io/movies/movies/")
+      .get("https://5dd02a32d5f1a500149a8463.mockapi.io/movies/movies/")
       .then(res => {
         console.log(res.data);
         const movies = res.data;
