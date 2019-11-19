@@ -1,0 +1,62 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position: fixed;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.buttons-close {
+  border: 3px solid red;
+  background: transparent;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  z-index: 1;
+  color: red;
+  position: fixed;
+  right: 0px;
+  top: -50px;
+  cursor: pointer;
+}
+
+.buttons-close:focus {
+  outline: none;
+  background-color: red;
+  color: white;
+}
+
+@media only screen and (max-width: 400px) {
+  .buttons-close {
+    right: 45%;
+    top: 110%;
+  }
+  .modal-main {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=modal-video.css.map */

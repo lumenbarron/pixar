@@ -1,0 +1,22 @@
+.pixar-logo {
+  background: url("https://i.postimg.cc/BnFLY8Hq/banner2-01.jpg");
+  height: inherit;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.margin-button {
+  margin-right: 30px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .margin-button {
+    display: none;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */
