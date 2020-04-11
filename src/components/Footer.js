@@ -4,7 +4,7 @@ import githublogo from "../styles/gitHub-logo.png";
 
 const Footer = () => {
   return (
-    <footer className="global-footer container">
+    <footer className="global-footer">
       <div className="row" style={{margin: 0}}>
         <div className="col s2"></div>
         <div className="col s8 disney-global">
