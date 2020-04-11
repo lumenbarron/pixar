@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/pixar/static/css/main.bb72f829.chunk.css",
-    "main.js": "/pixar/static/js/main.6597aab0.chunk.js",
-    "main.js.map": "/pixar/static/js/main.6597aab0.chunk.js.map",
-    "runtime-main.js": "/pixar/static/js/runtime-main.7f2f5ab2.js",
-    "runtime-main.js.map": "/pixar/static/js/runtime-main.7f2f5ab2.js.map",
-    "static/css/2.84e3cfba.chunk.css": "/pixar/static/css/2.84e3cfba.chunk.css",
-    "static/js/2.73c96d0a.chunk.js": "/pixar/static/js/2.73c96d0a.chunk.js",
-    "static/js/2.73c96d0a.chunk.js.map": "/pixar/static/js/2.73c96d0a.chunk.js.map",
+    "main.css": "/pixar/static/css/main.93030cfe.chunk.css",
+    "main.js": "/pixar/static/js/main.2fdae704.chunk.js",
+    "main.js.map": "/pixar/static/js/main.2fdae704.chunk.js.map",
+    "runtime-main.js": "/pixar/static/js/runtime-main.bc329b9c.js",
+    "runtime-main.js.map": "/pixar/static/js/runtime-main.bc329b9c.js.map",
+    "static/css/2.4ebe1bae.chunk.css": "/pixar/static/css/2.4ebe1bae.chunk.css",
+    "static/js/2.cf1b7afb.chunk.js": "/pixar/static/js/2.cf1b7afb.chunk.js",
+    "static/js/2.cf1b7afb.chunk.js.map": "/pixar/static/js/2.cf1b7afb.chunk.js.map",
     "index.html": "/pixar/index.html",
-    "precache-manifest.17df3d24f30567a34906f67f0f4e1431.js": "/pixar/precache-manifest.17df3d24f30567a34906f67f0f4e1431.js",
+    "precache-manifest.ebdac45ca7474309fcbb85d2cb04d455.js": "/pixar/precache-manifest.ebdac45ca7474309fcbb85d2cb04d455.js",
     "service-worker.js": "/pixar/service-worker.js",
-    "static/css/2.84e3cfba.chunk.css.map": "/pixar/static/css/2.84e3cfba.chunk.css.map",
-    "static/css/main.bb72f829.chunk.css.map": "/pixar/static/css/main.bb72f829.chunk.css.map",
+    "static/css/2.4ebe1bae.chunk.css.map": "/pixar/static/css/2.4ebe1bae.chunk.css.map",
+    "static/css/main.93030cfe.chunk.css.map": "/pixar/static/css/main.93030cfe.chunk.css.map",
+    "static/js/2.cf1b7afb.chunk.js.LICENSE.txt": "/pixar/static/js/2.cf1b7afb.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/pixar/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f2f5ab2.js",
-    "static/css/2.84e3cfba.chunk.css",
-    "static/js/2.73c96d0a.chunk.js",
-    "static/css/main.bb72f829.chunk.css",
-    "static/js/main.6597aab0.chunk.js"
+    "static/js/runtime-main.bc329b9c.js",
+    "static/css/2.4ebe1bae.chunk.css",
+    "static/js/2.cf1b7afb.chunk.js",
+    "static/css/main.93030cfe.chunk.css",
+    "static/js/main.2fdae704.chunk.js"
   ]
 }
