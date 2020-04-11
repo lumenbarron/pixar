@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="col s2"></div>
         <div className="col s8 disney-global">
           <a
-            href="https://github.com/lumenbarron"
+            href="https://github.com/lumenbarron/pixar"
             target="_blank"
             rel="noopener noreferrer"
             className="code-links"
