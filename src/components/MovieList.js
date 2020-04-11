@@ -10,7 +10,9 @@ export default class MovieList extends Component {
     this.state = {
       movies: [],
       show: false,
-      movieOne: ""
+      movieOne: "",
+      numberSliceFirst: this.props.sliceFirst,
+      numberSliceSecond: this.props.sliceSecond
     };
   }
   componentDidMount() {
@@ -48,10 +50,11 @@ export default class MovieList extends Component {
   };
 
   render() {
-    const { movies, movieOne, show } = this.state;
+    const { movies, movieOne, show, numberSliceFirst, numberSliceSecond } = this.state;
+
     return (
       <div>
-        <div className="row">
+        <div className="row" style={{height: 200}}>
           <button
             onClick={() => this.prevtMovie(movies)}
             disabled={movieOne.index === 0}
@@ -66,10 +69,10 @@ export default class MovieList extends Component {
                 className="cards-slider-wrapper"
                 style={{
                   transform: `translateX(-${movieOne.index *
-                    (100 / movies.length)}%)`
+                    (110 / movies.length)}%)`
                 }}
               >
-                {movies.map(movie => (
+                {movies.slice( numberSliceFirst, numberSliceSecond).map(movie => (
                   <Link key={movie.id} to={"/" + movie.id}>
                     <CardMovie key={movie.id} movie={movie} />
                   </Link>

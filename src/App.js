@@ -1,7 +1,8 @@
 import React , {Component} from 'react';
 import {BrowserRouter, Switch,Route } from 'react-router-dom';
 import Navbar from './components/NavBar'
-import MovieList from './components/MovieList';
+import Footer from './components/Footer';
+import Home from "./components/Home";
 import Movie from './components/Movie';
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -13,9 +14,10 @@ class App extends Component {
         <section>
           <Navbar />
           <Switch>
-            <Route exact path="/" component={MovieList} />
+            <Route exact path="/" component={Home} />
             <Route path="/:movie_id" component={Movie} />
           </Switch>
+          <Footer />
         </section>
       </BrowserRouter>
     );
