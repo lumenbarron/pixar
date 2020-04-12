@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pixar/static/css/main.5047c98f.chunk.css",
+    "main.css": "/pixar/static/css/main.3441a8b7.chunk.css",
     "main.js": "/pixar/static/js/main.f69b9fc4.chunk.js",
     "main.js.map": "/pixar/static/js/main.f69b9fc4.chunk.js.map",
     "runtime-main.js": "/pixar/static/js/runtime-main.bc329b9c.js",
@@ -9,10 +9,10 @@
     "static/js/2.cf1b7afb.chunk.js": "/pixar/static/js/2.cf1b7afb.chunk.js",
     "static/js/2.cf1b7afb.chunk.js.map": "/pixar/static/js/2.cf1b7afb.chunk.js.map",
     "index.html": "/pixar/index.html",
-    "precache-manifest.e7ec05062a05841ac82ecd408b5d7e11.js": "/pixar/precache-manifest.e7ec05062a05841ac82ecd408b5d7e11.js",
+    "precache-manifest.4ba120b97b8fc4be58294e290e2fd028.js": "/pixar/precache-manifest.4ba120b97b8fc4be58294e290e2fd028.js",
     "service-worker.js": "/pixar/service-worker.js",
     "static/css/2.4ebe1bae.chunk.css.map": "/pixar/static/css/2.4ebe1bae.chunk.css.map",
-    "static/css/main.5047c98f.chunk.css.map": "/pixar/static/css/main.5047c98f.chunk.css.map",
+    "static/css/main.3441a8b7.chunk.css.map": "/pixar/static/css/main.3441a8b7.chunk.css.map",
     "static/js/2.cf1b7afb.chunk.js.LICENSE.txt": "/pixar/static/js/2.cf1b7afb.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/pixar/static/media/fontawesome-webfont.fee66e71.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.bc329b9c.js",
     "static/css/2.4ebe1bae.chunk.css",
     "static/js/2.cf1b7afb.chunk.js",
-    "static/css/main.5047c98f.chunk.css",
+    "static/css/main.3441a8b7.chunk.css",
     "static/js/main.f69b9fc4.chunk.js"
   ]
 }
