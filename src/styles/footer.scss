@@ -2,7 +2,7 @@
   background: #263238;
   width: 100%;
   height: 80px;
-  position: relative;
+  position: fixed;
   bottom: 0;
   margin: 0;
 }
@@ -28,3 +28,9 @@
   margin-top: 0.5rem;
   width: 2rem;
 }
+
+@media only screen and (max-width: 400px) {
+.global-footer{
+    position: relative;
+}
+  }
