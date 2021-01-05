@@ -4,7 +4,7 @@
   "private": true,
   "homepage": " https://lumenbarron.github.io/pixar/",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
